@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_fungus": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:warped_fungus"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "totk:cookskyshroom"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_fungus"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "totk:cookskyshroom",
+        "totk:cookskyshroomcampfire",
+        "totk:cookskyshroomsmoker"
+      ]
+    },
+    "sends_telemetry_event": true
+  }
+  

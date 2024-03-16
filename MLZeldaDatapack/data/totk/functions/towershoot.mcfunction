@@ -1,0 +1,4 @@
+execute as @e[scores={totk.toweruse=1..}] at @s if block ~ ~-1 ~ oak_trapdoor[half=top,open=false,powered=false,waterlogged=false] if block ~ ~-2 ~ piston[facing=up] run particle explosion_emitter ~ ~-1 ~ 0 0 0 0 1 force
+execute as @e[scores={totk.toweruse=1..}] at @s if block ~ ~-1 ~ oak_trapdoor[half=top,open=false,powered=false,waterlogged=false] if block ~ ~-2 ~ piston[facing=up] run playsound entity.generic.explode block @s ~ ~-1 ~ 0.2 1
+execute as @e[scores={totk.toweruse=1..}] at @s if block ~ ~-1 ~ oak_trapdoor[half=top,open=false,powered=false,waterlogged=false] if block ~ ~-2 ~ piston[facing=up] run effect give @s levitation 8 127 true
+scoreboard players reset @a totk.toweruse

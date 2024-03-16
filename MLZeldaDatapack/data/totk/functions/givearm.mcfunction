@@ -1,0 +1,1 @@
+give @s minecraft:mojang_banner_pattern[minecraft:custom_name='{"text":"Arm of Rauru","color":"#09e099","italic":false}',minecraft:enchantment_glint_override=true,minecraft:custom_model_data=201]

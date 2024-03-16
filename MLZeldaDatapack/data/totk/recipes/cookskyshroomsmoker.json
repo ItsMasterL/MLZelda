@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 0.35,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:warped_fungus"
+  },
+  "result": {
+    "id": "minecraft:cookie",
+    "components": {
+      "custom_name": "{\"text\": \"Cooked Skyshroom\",\"italic\": false}",
+      "custom_model_data": 25
+    }
+  }
+}

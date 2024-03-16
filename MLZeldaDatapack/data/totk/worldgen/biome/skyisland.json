@@ -1,0 +1,109 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": true,
+  "effects": {
+    "sky_color": 7907327,
+    "fog_color": 16776130,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 16762880,
+    "foliage_color": 16762880,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "creature": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:parrot",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:allay",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:vex",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:husk",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:husk": {
+      "energy_budget": 0.5,
+      "charge": 0.7
+    },
+    "minecraft:enderman": {
+      "energy_budget": 0.5,
+      "charge": 0.7
+    }
+  },
+  "carvers": {
+    "air": []
+  },
+  "features": [
+    [
+      "minecraft:spring_water",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_lapis",
+      "minecraft:ore_emerald",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_granite_upper"
+    ],
+    [
+      "minecraft:vines",
+      "minecraft:flower_warm",
+      "minecraft:patch_berry_common",
+      "totk:skyshrooms"
+    ],
+    [
+      "minecraft:patch_grass_savanna"
+    ],
+    [
+      "totk:skytrees",
+      "totk:skytreestall"
+    ],
+    [
+      "totk:skyshrooms"
+    ]
+  ]
+}

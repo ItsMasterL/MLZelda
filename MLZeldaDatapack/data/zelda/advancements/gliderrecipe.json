@@ -1,0 +1,71 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_leather": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:leather"
+            }
+          ]
+        }
+      },
+      "has_fence": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "#minecraft:wooden_fences"
+            }
+          ]
+        }
+      },
+      "has_glider": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:mojang_banner_pattern",
+              "components": {
+                "minecraft:custom_name": "{\"text\": \"Paraglider\",\"italic\": false, \"color\":\"#09E099\"}",
+                "minecraft:custom_model_data": 202
+              }
+            }
+          ]
+        }
+      },
+      "has_string": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:string"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "totk:glider"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_glider",
+        "has_fence",
+        "has_string",
+        "has_leather"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "totk:glider"
+      ]
+    },
+    "sends_telemetry_event": true
+  }
+  

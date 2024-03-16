@@ -1,0 +1,1 @@
+give @s minecraft:mojang_banner_pattern[minecraft:custom_name='{"italic":false,"color":"#09E099","text":"Paraglider"}',minecraft:custom_model_data=202]

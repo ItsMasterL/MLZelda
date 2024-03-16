@@ -1,0 +1,36 @@
+{
+  "type": "totk:skyislands",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "totk:skyislandnoise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "totk:skyisland",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "totk:floatyisland",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

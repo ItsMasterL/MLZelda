@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "WWW",
+      "FSF",
+      "F F"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:string"
+      },
+      "W": {
+        "item": "minecraft:leather"
+      },
+      "F":{
+        "tag": "minecraft:wooden_fences"
+      }
+    },
+    "result": {
+      "id": "minecraft:mojang_banner_pattern",
+      "components":{
+      "custom_name": "{\"text\": \"Paraglider\",\"italic\": false, \"color\":\"#09E099\"}",
+      "custom_model_data": 202
+      }
+    }
+  }
+  

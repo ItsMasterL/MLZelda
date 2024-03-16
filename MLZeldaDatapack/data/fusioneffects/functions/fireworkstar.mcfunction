@@ -1,0 +1,3 @@
+summon minecraft:firework_rocket ~ ~ ~ {FireworksItem:{components:{"minecraft:fireworks":{explosions:[{shape:"large_ball",colors:[I;16711680],has_trail:1b}],flight_duration:2}},count:1,id:"minecraft:firework_rocket"},LifeTime:0,Silent:1b}
+execute as @e[type=firework_rocket,limit=1,sort=nearest] run data modify entity @s FireworksItem.components.minecraft:fireworks.explosions[0] set from storage totk:fuse Item.components.minecraft:firework_explosion
+function fusioneffects:end

@@ -1,0 +1,10 @@
+effect clear @a[tag=totk.gliding] slow_falling
+tag @a remove totk.gliding
+execute as @a at @s if data entity @s {SelectedItem:{components: {"minecraft:custom_name": '{"color":"#09E099","italic":false,"text":"Paraglider"}', "minecraft:custom_model_data": 202}, count: 1, id: "minecraft:mojang_banner_pattern"}} if block ~ ~ ~ #minecraft:air if block ~ ~-1 ~ #minecraft:air if block ~ ~-2 ~ #minecraft:air if block ~ ~-3 ~ #minecraft:air run tag @s add totk.gliding
+execute as @a at @s if data entity @s {Inventory:[{components: {"minecraft:custom_model_data": 202, "minecraft:custom_name": '{"color":"#09E099","italic":false,"text":"Paraglider"}'}, count: 1, Slot: -106b, id: "minecraft:mojang_banner_pattern"}]} if block ~ ~ ~ #minecraft:air if block ~ ~-1 ~ #minecraft:air if block ~ ~-2 ~ #minecraft:air if block ~ ~-3 ~ #minecraft:air run tag @s add totk.gliding
+execute as @a[tag=totk.gliding] at @s unless entity @s[nbt={Attributes:[{Base: 0.08d, Modifiers: [{Amount: -0.08d, Operation: 0, UUID: [I; -233472403, -630308803, -1517866371, -2009055573], Name: "glider"}], Name: "minecraft:generic.gravity"}]}] run tp @s @s
+execute as @a[tag=totk.gliding] at @s unless entity @s[nbt={Attributes:[{Base: 0.08d, Modifiers: [{Amount: -0.08d, Operation: 0, UUID: [I; -233472403, -630308803, -1517866371, -2009055573], Name: "glider"}], Name: "minecraft:generic.gravity"}]}] run playsound block.wool.fall player @a ~ ~ ~ 1 0.5 0
+execute as @a[tag=totk.gliding] at @s run attribute @s generic.gravity modifier add f2157e6d-da6e-403d-a587-327d88403eab "glider" -0.08 add_value
+execute as @a[tag=totk.gliding] at @s run effect give @s slow_falling 1 0 true
+execute as @a[tag=totk.gliding] at @s run tp @s ~ ~-0.01 ~
+execute as @a[tag=!totk.gliding] at @s run attribute @s generic.gravity modifier remove f2157e6d-da6e-403d-a587-327d88403eab

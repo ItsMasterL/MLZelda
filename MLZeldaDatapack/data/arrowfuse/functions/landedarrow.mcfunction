@@ -1,0 +1,2 @@
+execute as @e[type=#minecraft:arrows,nbt={inGround:1b},tag=totk.fusedarrow] at @s if data storage totk:fuse Item run scoreboard players set fuse totk.fusecheck 1
+execute as @e[type=#minecraft:arrows,nbt={inGround:1b},tag=totk.fusedarrow] at @s if data storage totk:fuse Item run function arrowfuse:fuselandcheck

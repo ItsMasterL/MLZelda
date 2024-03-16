@@ -1,0 +1,12 @@
+{
+    "values": [
+        "#minecraft:impermeable",
+        "minecraft:packed_ice",
+        "minecraft:decorated_pot",
+        "minecraft:glowstone",
+        "minecraft:sniffer_egg",
+        "minecraft:sea_lantern",
+        "minecraft:suspicious_gravel",
+        "minecraft:suspicious_sand"
+    ]
+}

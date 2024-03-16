@@ -1,0 +1,16 @@
+{
+    "structures": [
+      {
+        "structure": "totk:skyfountain",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 227811013,
+      "frequency": 0.5,
+      "spacing": 100,
+      "separation": 50
+    }
+  }
+  

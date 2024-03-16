@@ -1,0 +1,15 @@
+execute if entity @a[scores={totk.enabled=1..}] run function totk:checkarm
+execute if entity @a[scores={totk.enabled=1..}] run function arrowfuse:bowcheck
+execute if entity @a[scores={totk.enabled=1..}] run function arrowfuse:fuseitem
+execute if entity @a[scores={totk.enabled=1..}] run function arrowfuse:landedarrow
+execute if entity @a[scores={totk.enabled=1..}] run function arrowfuse:flowertimer
+execute if entity @a[scores={totk.enabled=1..}] run function totk:checkdimension
+execute if entity @a[scores={totk.enabled=1..}] run function totk:float
+execute if entity @a[scores={totk.enabled=1..}] run function totk:glide
+execute if entity @a[scores={totk.enabled=1..}] run function totk:checkgloom
+execute if entity @a[scores={totk.enabled=1..}] run function totk:gloomdragon
+execute if entity @a[scores={totk.enabled=1..}] run function temp:temperature
+execute if entity @a[scores={totk.enabled=1..}] run function totk:sleeping
+execute if entity @a[scores={totk.enabled=1..}] run function ascend:detect
+execute if entity @a[scores={totk.enabled=1..}] run function totk:towershoot
+execute if entity @a[scores={totk.enabled=1..}] run function arrowfuse:hitcheck

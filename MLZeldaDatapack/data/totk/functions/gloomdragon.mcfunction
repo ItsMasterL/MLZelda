@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:area_effect_cloud,nbt={Particle:"minecraft:dragon_breath",Age:5}] at @s run place feature sculk_patch_deep_dark ~ ~ ~

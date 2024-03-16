@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:smelting",
+    "category": "food",
+    "experience": 0.35,
+    "cookingtime": 200,
+    "ingredient": {
+      "item": "minecraft:warped_fungus"
+    },
+    "result": {
+      "id": "minecraft:cookie",
+      "components": {
+        "custom_name": "{\"text\": \"Cooked Skyshroom\",\"italic\": false}",
+        "custom_model_data": 25
+      }
+    }
+  }
+  

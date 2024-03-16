@@ -1,0 +1,239 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": 3,
+          "max": 8
+        },
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 5
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:fern"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:large_fern"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:potato",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 7
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:sweet_berries",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 7
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:bread",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 4
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:pumpkin_seeds",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 5
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:pumpkin_pie"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 4
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:spruce_sapling",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 5
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spruce_sign"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:spruce_log",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 5
+                },
+                "add": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "minecraft:dune",
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:dyed_color": {
+                    "rgb": 4475648,
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:custom_name": "{\"text\":\"Snowquill Boots\",\"italic\":false,\"color\":\"#09e099\"}",
+                  "minecraft:lore": [
+                    "[\"\",{\"text\":\"Keeps you warm in cold temperatures\",\"italic\":false,\"color\":\"aqua\"}]"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "minecraft:silence",
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:dyed_color": {
+                    "rgb": 16777195,
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:custom_name": "{\"text\":\"Snowquill Chestplate\",\"italic\":false,\"color\":\"#09e099\"}",
+                  "minecraft:lore": [
+                    "[\"\",{\"text\":\"Keeps you warm in cold temperatures\",\"italic\":false,\"color\":\"aqua\"}]"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:trim": {
+                    "material": "minecraft:emerald",
+                    "pattern": "minecraft:wayfinder",
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:dyed_color": {
+                    "rgb": 16777195,
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:custom_name": "{\"text\":\"Snowquill Leggings\",\"italic\":false,\"color\":\"#09e099\"}",
+                  "minecraft:lore": [
+                    "[\"\",{\"text\":\"Keeps you warm in cold temperatures\",\"italic\":false,\"color\":\"aqua\"}]"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:chests/village/village_taiga_house"
+  }
+  
